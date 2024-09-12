@@ -1,4 +1,4 @@
-terraform {
+2terraform {
     required_version = "~> 1.9.5" // added latest version
     required_providers {
     aws = {
@@ -13,7 +13,7 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "lavanyainfra" {
+resource "aws_instance" "lavanya ec2 infra" {
 	ami = "ami-0c2b8ca1dad447f8a" 
 	instance_type = "t2.small to t2.large"
 }
