@@ -13,7 +13,7 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "lavanyaterraforminfra" {
+resource "aws_instance" "lavanyainfra" {
 	ami = "ami-0c2b8ca1dad447f8a" 
 	instance_type = "t2.nano"
 }
